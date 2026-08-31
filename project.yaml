@@ -1,0 +1,73 @@
+# .project metadata for Vitess
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "vitess"
+name: "Vitess"
+description: "MySQL-compatible, horizontally scalable, cloud-native database solution."
+type: "project"
+project_lead: "mattlord" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#vitess"
+#     primary: true
+
+maturity_log:
+  - phase: "graduated"
+    date: "2018-02-05T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/1072" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/vitessio/vitess"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://vitess.io/"
+
+artwork: "https://landscape.cncf.io/logos/vitess.svg"
+
+adopters:
+  path: "https://github.com/vitessio/vitess/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "vitessio/vitess"
+
+social:
+  twitter: "https://twitter.com/vitessio"
+
+security:
+  policy:
+    path: "https://github.com/vitessio/vitess/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/vitessio/vitess/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/vitessio/vitess/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/vitessio/vitess/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/vitessio/vitess/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/vitessio/vitess/blob/main/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Database"
+
+# CLOMonitor Score: 90/100
+# Documentation: 100 | License: 100 | Best Practices: 95 | Security: 73
