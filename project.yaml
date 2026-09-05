@@ -38,7 +38,7 @@ repositories: # Full list: https://github.com/orgs/vitessio/repositories?type=al
 
 website: "https://vitess.io/"
 
-artwork: "https://cncf-icons.com/icons/vitess/"
+artwork: "https://cncf-icons.com/icons/vitess/" # See also: "https://github.com/cncf/artwork/blob/main/examples/graduated.md#vitess-logos"
 
 adopters:
   path: "https://github.com/vitessio/vitess/blob/main/ADOPTERS.md"
