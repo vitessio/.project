@@ -7,23 +7,35 @@ name: "Vitess"
 description: "MySQL-compatible, horizontally scalable, cloud-native database solution."
 type: "project"
 project_lead: "mattlord"
-  slack_channels:
-    - name: "#vitess"
-      primary: true
+slack_channels:
+  - name: "#vitess"
+    primary: true
 
 maturity_log:
   - phase: "graduated"
     date: "2019-11-05T00:00:00Z"
     issue: "https://github.com/cncf/toc/pull/306"
 
-repositories:
+repositories: # Full list: https://github.com/orgs/vitessio/repositories?type=all
   - url: "https://github.com/vitessio/vitess"
     primary: true
+    # tags: [core, sig-apps] # Optional
+  - url: "https://github.com/vitessio/website"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+  - url: "https://github.com/vitessio/arewefastyet"
+    primary: false
+    # tags: [core, sig-apps] # Optional
+  - url: "https://github.com/vitessio/vitess-releaser"
+    primary: false
+    # tags: [core, sig-apps] # Optional
+  - url: "https://github.com/vitessio/vt"
+    primary: false
     # tags: [core, sig-apps] # Optional
 
 website: "https://vitess.io/"
 
-artwork: "https://landscape.cncf.io/logos/vitess.svg"
+artwork: "https://github.com/cncf/artwork/blob/main/examples/graduated.md#vitess-logos"
 
 adopters:
   path: "https://github.com/vitessio/vitess/blob/main/ADOPTERS.md"
