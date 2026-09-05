@@ -21,7 +21,7 @@ repositories: # Full list: https://github.com/orgs/vitessio/repositories?type=al
     primary: true
     # tags: [core, sig-apps] # Optional
   - url: "https://github.com/vitessio/website"
-    primary: true
+    primary: false
     # tags: [core, sig-apps] # Optional
   - url: "https://github.com/vitessio/arewefastyet"
     primary: false
