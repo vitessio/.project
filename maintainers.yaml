@@ -14,6 +14,7 @@ maintainers:
           - derekperkins
           - frouioui
           - mhamza15
+          - migue
           - timvaillancourt
       # Unmanaged teams: teams with "managed: false" are tracked in this
       # file for documentation but are excluded from CNCF resource
